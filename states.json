@@ -67,7 +67,7 @@
         "Kuala Sungai Baru",
         "Pulau Sebang"
       ],
-      "Negeri Sembilan": [
+      "Negeri_Sembilan": [
         "Seremban",
         "Port Dickson",
         "Nilai",
@@ -112,7 +112,7 @@
         "Kangar",
         "Kuala Perlis"
       ],
-      "Pulau Pinang": [
+      "Pulau_Pinang": [
         "Bukit Mertajam",
         "Georgetown",
         "Sungai Ara",
@@ -200,7 +200,7 @@
         "Paka",
         "Jerteh"
       ],
-      "Wilayah Persekutuan": [
+      "Wilayah_Persekutuan": [
         "Kuala Lumpur",
         "Labuan",
         "Putrajaya"
