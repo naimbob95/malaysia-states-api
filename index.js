@@ -14,11 +14,23 @@ app.listen(port, () => {
 
 app.use(express.static('public'));
 app.use(cors());
-app.get('/states',alldata);
+app.get('/',alldata);
 function alldata(request,response)
 {
     response.send(states);
 }
+
+app.get('/states',searchAllstates);
+function searchAllstates(request,response)
+{
+	var allStates = [];
+	for(var k in states) {
+		keys.push(k);
+	}
+    response.send(allStates);
+}
+
+
 app.get('/states/:states/',searchstates);
 function searchstates(request,response)
 {
