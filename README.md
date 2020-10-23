@@ -1,6 +1,6 @@
-# malaysia-states-api
+# Malaysia-states-api
 
-## This API is to get all the states and cities in malaysia
+## This API is to get all the states and cities in Malaysia
 
 Please do this first if you want to run in your local environment:
 ```
