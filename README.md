@@ -33,16 +33,16 @@ List of states:
 -Kedah
 -Kelantan
 -Melaka
--Negeri_Sembilan
+-Negeri_sembilan
 -Pahang
 -Perak
 -Perlis
--Pulau_Pinang
+-Pulau_pinang
 -Sabah
 -Sarawak
 -Selangor
 -Terengganu
--Wilayah_Persekutuan
+-Wilayah_persekutuan
 ```
 
 
