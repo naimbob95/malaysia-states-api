@@ -24,8 +24,8 @@ app.get('/states',searchAllstates);
 function searchAllstates(request,response)
 {
 	var allStates = [];
-	for(var k in states) {
-		keys.push(k);
+	for(var s in states) {
+		allStates.push(s);
 	}
     response.send(allStates);
 }
