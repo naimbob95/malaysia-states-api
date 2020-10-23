@@ -22,14 +22,13 @@ function alldata(request,response)
 app.get('/states/:states/',searchstates);
 function searchstates(request,response)
 {
-	var word=request.params.states;
-	console.log(word)
-	word=word.charAt(0).toUpperCase()+word.slice(1).toLowerCase();
-	console.log(word);
+	var keyword=request.params.states;
+	keyword=keyword.charAt(0).toUpperCase()+keyword.slice(1).toLowerCase();
+	
 	//console.log(elements[word]);
-	if(states[word])
+	if(states[keyword])
 	{
-		var reply=states[word];
+		var reply=states[keyword];
 		
 	}
 	else
