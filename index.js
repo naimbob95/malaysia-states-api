@@ -37,7 +37,6 @@ function searchstates(request,response)
 
 	var keyword=request.params.states;
 	keyword=keyword.charAt(0).toUpperCase()+keyword.slice(1).toLowerCase();
-	console.log(keyword)
 	//console.log(elements[word]);
 	if(states[keyword])
 	{
